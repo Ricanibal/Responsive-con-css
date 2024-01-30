@@ -1,0 +1,59 @@
+.letter
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    width: 60%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+}
+h1
+{
+    text-align: left;
+    margin: 0px 12px;
+}
+.date
+{
+    text-align: left;
+    padding-left: 5%;
+    opacity: 0.6;
+}
+
+button
+{
+    width: 100%;
+    font-size: 18px;
+    padding: 5%;
+    background-color: #4488ff;
+    color: white;
+    border: none;
+    margin: 0;
+}
+
+button:hover
+{
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff; /* Color de fondo blanco */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.Mensaje
+{
+    text-align: center;
+    font-family: "arial";
+   margin-top: 16px;
+   margin-bottom: 16px;
+}
+
+*
+{
+    font-family: 'arial';
+    margin: 0;
+    padding: 0;
+}
